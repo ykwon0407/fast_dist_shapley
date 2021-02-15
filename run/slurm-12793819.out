@@ -1,0 +1,785 @@
+/oak/stanford/groups/mrivas/users/yckwon/software/anaconda3/etc/profile.d/conda.sh: line 15: dirname: command not found
+/oak/stanford/groups/mrivas/users/yckwon/software/anaconda3/etc/profile.d/conda.sh: line 16: dirname: command not found
+------------------------------
+FASTDIST
+------------------------------
+--------------------------------------------------
+GAUSSIAN: (m,p) : (100,30)
+--------------------------------------------------
+number of samples: 48000
+Dist (m,p) :  (48000, 30)
+to be valued (m,p) :  (100, 30)
+Elapsed time for FAST DSHAPLEY : 0.258
+------------------------------
+D-Shapley & TMC-Shapley
+------------------------------
+Experiment_number:  000000
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+10 out of 100 Dist_Shapley iterations.
+20 out of 100 Dist_Shapley iterations.
+30 out of 100 Dist_Shapley iterations.
+40 out of 100 Dist_Shapley iterations.
+50 out of 100 Dist_Shapley iterations.
+60 out of 100 Dist_Shapley iterations.
+70 out of 100 Dist_Shapley iterations.
+80 out of 100 Dist_Shapley iterations.
+90 out of 100 Dist_Shapley iterations.
+100 out of 100 Dist_Shapley iterations.
+save_results was removed
+Distributional Shapley has converged!
+save_results was removed
+Reached to convergence!
+------------------------------
+Elapsed time
+Dist: 691.0686511993408
+TMC: 0
+iterations: 69
+------------------------------
+All methods have converged!
