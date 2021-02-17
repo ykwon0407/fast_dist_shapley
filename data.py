@@ -11,8 +11,8 @@ def load_reg_data_for_point_addition(m=200,
     '''
     This function loads regression datasets datasets for the point addition experiments.
     m: The number of data points to be valued.
-    test_size: 
-    heldout_size:
+    test_size: the number of data points for evaluation of the utility function.
+    heldout_size: the number of data points for evaluation of performances in point addition experiments.
     reg_path: path to regression datasets
 
     You may need to download datasets first. Make sure to store in 'reg_path'.
@@ -84,8 +84,8 @@ def load_non_reg_data_for_point_addition(m=200,
     '''
     This function loads classification (or density estimation) datasets for the point addition experiments.
     m: The number of data points to be valued.
-    test_size: 
-    heldout_size:
+    test_size: the number of data points for evaluation of the utility function.
+    heldout_size: the number of data points for evaluation of performances in point addition experiments.
     clf_path: path to classification datasets.
     img_path: path to extracted features of image datasets.
 

@@ -9,7 +9,6 @@ import statsmodels.api as sm
 """
 basic functions
 """
-
 def normalize_X(df, mean, std):
     return (df-mean)/(std+1e-12)
 
@@ -62,15 +61,15 @@ def preprocess_data(data_dict):
     return (X_dist_whitened, y_dist_tmp, resi_dist), (X_star_whitened, y_star_tmp, resi_star), beta_dist
 
 
-def print_rank_correlation(vals_tmc, vals_dist, vals_fastdist):
+def print_rank_correlation(vals_dist, vals_fastdist):
     print('-'*30)
     print('Rank correlation vs random')
     print('-'*30)
 
-    val_list = [vals_tmc, vals_dist, vals_fastdist]
-    name_list = ['TMC','D-Shapley','FastDist']
+    val_list = [vals_dist, vals_fastdist]
+    name_list = ['D-Shapley','FastDist']
 
-    for i in range(3): 
+    for i in range(len(name_list)): 
         corr = spearmanr(np.random.normal(size=len(vals_fastdist)), val_list[i])[0]
         print(f'Rank correlation: {name_list[i]} vs random values = {corr:.3f}')
 
@@ -78,8 +77,8 @@ def print_rank_correlation(vals_tmc, vals_dist, vals_fastdist):
     print('Rank correlation')
     print('-'*30)
 
-    for i in range(3):
-        for j in range(3):
+    for i in range(len(name_list)):
+        for j in range(len(name_list)):
             if i < j:
                 corr = spearmanr(val_list[i], val_list[j])[0]
                 print(f'Rank correlation: {name_list[i]} vs {name_list[j]} = {corr:.3f}')

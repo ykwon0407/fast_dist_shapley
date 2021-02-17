@@ -14,7 +14,7 @@ As for the point addition experiment, you may need to download datasets first. Y
 ```
 python prep_non_reg_data.py
 ```
-After that you can run all experiments introduced in the paper with the command `run_XXX.py`.
+After that you can run all experiments introduced in the paper with the command `run_point_addition_exp.py`. Please see arguments in the `run_point_addition_exp.py` file.
 
 **Remark** You may need to run experiments multiple time to reproduce results in the paper (please change the `run_id` argument). 
 
@@ -25,9 +25,7 @@ After that you can run all experiments introduced in the paper with the command 
 ├── data.py
 ├── dist_shap.py
 ├── fast_dist_shap.py
-├── main_classification.py
-├── main_density.py
-├── main_regression.py
+├── run_point_addition_exp.py
 ├── run_time_comparison.py
 ├── README.md
 └── shap_utils.py
