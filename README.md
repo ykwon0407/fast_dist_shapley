@@ -2,8 +2,8 @@
 
 This repository provides the Python implementation of the paper "Efficient Computation and Analysis of Distributional Shapley Values" accepted at [AISTATS 2021](https://aistats.org/aistats2021). We derive the first analytic expressions for the distributional Shapley value (DShapley) for the canonical problems of linear regression, binary classification, and non-parametric density estimation. These analytic forms provide new algorithms to estimate DShapley that are **several orders of magnitude faster** than previous state-of-the-art methods.
 
-
-![Time comparison analysis in various machine learning problems](./fig/table_fig.png)
+### Time comparison analysis in various machine learning problems
+<img src="./fig/table_fig.png" width="600">
 
 ## Quick start
 
