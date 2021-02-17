@@ -1,6 +1,8 @@
 temp*/
 notebook/
 figures/
+datasets/
+results/
 run/
 
 # Byte-compiled / optimized / DLL files

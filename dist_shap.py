@@ -1,25 +1,19 @@
 #______________________________________PEP8____________________________________
 #_______________________________________________________________________
 import matplotlib
+import matplotlib.pyplot as plt
 matplotlib.use('Agg')
 import numpy as np
-import os
-# import tensorflow as tf
-import sys
+import os, sys, time, shutil, warnings
 from shap_utils import *
-from scipy.stats import spearmanr
-import shutil
-from sklearn.base import clone
-import time
-import matplotlib.pyplot as plt
-import itertools
-import inspect
+import itertools, inspect
 import _pickle as pkl
-from sklearn.metrics import f1_score, roc_auc_score
 import socket
-import warnings
 from collections import defaultdict
 from sklearn.neighbors import KernelDensity
+from sklearn.metrics import f1_score, roc_auc_score
+from sklearn.base import clone
+from scipy.stats import spearmanr
 warnings.filterwarnings("ignore")
     
 class DistShap(object):
@@ -354,11 +348,9 @@ class DistShap(object):
         print('-'*30)
         print(f'Elapsed time')
         print(f'Dist: {time_dist_run}')
-        print(f'TMC: {time_tmc_run}')
         print(f'iterations: {iters}')
         print('-'*30)
-        print('All methods have converged!')
-        
+        # print('All methods have converged!')
     
     def _dist_shap(self, iterations, truncation, sources=None, alpha=None):
         """Runs Distribution-Shapley algorithm.
@@ -711,51 +703,6 @@ class DistShap(object):
                     os.remove(batch_dir)
             print(merged_dir)
             
-    def portion_performance(
-        self, idxs, plot_points, sources=None, X=None, y=None, sample_weight=None, verbose=False):
-        """Given a set of indexes, starts removing points from 
-        the first elemnt and evaluates the new model after
-        removing each point."""
-
-        print('DEPRECATED!!')
-        
-        """
-        if X is None:
-            X = self.X
-            y = self.y
-            sample_weight = self.sample_weight
-        if sources is None:
-            sources = {i: np.array([i]) for i in range(len(X))}
-        elif not isinstance(sources, dict):
-            sources = {i: np.where(sources==i)[0] for i in set(sources)}
-        scores = []
-        init_score = self.random_score
-        for i in range(len(plot_points), 0, -1):
-            if verbose:
-                print('{} out of {}'.format(len(plot_points)-i+1, len(plot_points)))
-            keep_idxs = np.concatenate([sources[idx] for idx 
-                                        in idxs[plot_points[i-1]:]], -1)
-            X_batch, y_batch = X[keep_idxs], y[keep_idxs]
-            if sample_weight is not None:
-                sample_weight_batch = self.sample_weight[keep_idxs]
-            try:
-                self.restart_model()
-                if self.sample_weight is None:
-                    self.model.fit(X_batch, y_batch)
-                else:
-                    self.model.fit(X_batch, y_batch,
-                                  sample_weight=sample_weight_batch)
-                scores.append(self.value(
-                    self.model,
-                    metric=self.metric,
-                    X=self.X_heldout,
-                    y=self.y_heldout
-                ))
-            except:
-                scores.append(init_score)
-        return np.array(scores)[::-1]
-        """
-
 
 class DistShapDensity(object):
     
@@ -1323,13 +1270,5 @@ class DistShapDensity(object):
                 if batch_dir != merged_dir:
                     os.remove(batch_dir)
             print(merged_dir)
-            
-    def portion_performance(
-        self, idxs, plot_points, sources=None, X=None, y=None, sample_weight=None, verbose=False):
-        """Given a set of indexes, starts removing points from 
-        the first elemnt and evaluates the new model after
-        removing each point."""
-
-        print('DEPRECATED!!')
         
         

@@ -1,7 +1,5 @@
-import os
-import sys
+import os, sys, warnings, inspect
 import numpy as np
-import inspect
 from scipy.stats import logistic
 from scipy.stats import spearmanr
 from sklearn.naive_bayes import MultinomialNB
@@ -16,12 +14,8 @@ from sklearn.naive_bayes import MultinomialNB, GaussianNB
 from sklearn.gaussian_process import GaussianProcessClassifier
 from sklearn.svm import SVC, LinearSVC
 from sklearn.base import clone
-import inspect
-# from Shapley import ShapNN, CShapNN
 from multiprocessing import dummy as multiprocessing
 from sklearn.metrics import roc_auc_score, f1_score
-import warnings
-# import tensorflow as tf
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import Lasso, Ridge
@@ -31,7 +25,6 @@ from sklearn.model_selection import cross_validate
 
 
 def one_hotisze(X, impute=True, missing_key=-10000):
-    
     X_oh = []
     for col in range(X.shape[-1]):
         column = X[:, col]
@@ -49,7 +42,6 @@ def one_hotisze(X, impute=True, missing_key=-10000):
 
 
 def convergence_plots(marginals):
-    
     plt.rcParams['figure.figsize'] = 15, 15
     for i, idx in enumerate(np.arange(min(25, marginals.shape[-1]))):
         plt.subplot(5,5,i+1)
@@ -66,8 +58,6 @@ def is_fitted(model):
 
 
 def return_model(mode, **kwargs):
-    
-    
     if inspect.isclass(mode):
         assert getattr(mode, 'fit', None) is not None, 'Custom model family should have a fit() method'
         model = mode(**kwargs)
@@ -106,66 +96,6 @@ def return_model(mode, **kwargs):
     elif mode=='ridge':
         alpha = kwargs.get('alpha', 1.0)
         model = Ridge(alpha=alpha, random_state=666)
-        """
-    elif 'conv' in mode:
-        tf.reset_default_graph()
-        address = kwargs.get('address', 'weights/conv')
-        hidden_units = kwargs.get('hidden_layer_sizes', [20])
-        activation = kwargs.get('activation', 'relu')
-        weight_decay = kwargs.get('weight_decay', 1e-4)
-        learning_rate = kwargs.get('learning_rate', 0.001)
-        max_iter = kwargs.get('max_iter', 1000)
-        dropout = kwargs.get('dropout', 0.)
-        early_stopping= kwargs.get('early_stopping', 10)
-        warm_start = kwargs.get('warm_start', False)
-        batch_size = kwargs.get('batch_size', 256)
-        kernel_sizes = kwargs.get('kernel_sizes', [5])
-        strides = kwargs.get('strides', [5])
-        channels = kwargs.get('channels', [1])
-        validation_fraction = kwargs.get('validation_fraction', 0.)
-        global_averaging = kwargs.get('global_averaging', 0.)
-        optimizer = kwargs.get('optimizer', 'sgd')
-        if mode=='conv':
-            model = CShapNN(mode='classification', batch_size=batch_size, max_epochs=max_iter,
-                          learning_rate=learning_rate, dropout=dropout,
-                          weight_decay=weight_decay, validation_fraction=validation_fraction,
-                          early_stopping=early_stopping,
-                         optimizer=optimizer, warm_start=warm_start, address=address,
-                          hidden_units=hidden_units,
-                          strides=strides, global_averaging=global_averaging,
-                         kernel_sizes=kernel_sizes, channels=channels, random_seed=666)
-        elif mode=='conv_reg':
-            model = CShapNN(mode='regression', batch_size=batch_size, max_epochs=max_iter,
-                          learning_rate=learning_rate, dropout=dropout,
-                          weight_decay=weight_decay, validation_fraction=validation_fraction,
-                          early_stopping=early_stopping,
-                         optimizer=optimizer, warm_start=warm_start, address=address,
-                          hidden_units=hidden_units,
-                          strides=strides, global_averaging=global_averaging,
-                         kernel_sizes=kernel_sizes, channels=channels, random_seed=666)
-    elif 'NN' in mode:
-        solver = kwargs.get('solver', 'adam')
-        hidden_layer_sizes = kwargs.get('hidden_layer_sizes', (20,))
-        if isinstance(hidden_layer_sizes, list):
-            hidden_layer_sizes = list(hidden_layer_sizes)
-        activation = kwargs.get('activation', 'relu')
-        learning_rate_init = kwargs.get('learning_rate', 0.001)
-        max_iter = kwargs.get('max_iter', 5000)
-        early_stopping= kwargs.get('early_stopping', False)
-        warm_start = kwargs.get('warm_start', False)
-        batch_size = kwargs.get('batch_size', 'auto')
-        
-        if mode=='NN':
-            model = MLPClassifier(solver=solver, hidden_layer_sizes=hidden_layer_sizes,
-                                activation=activation, learning_rate_init=learning_rate_init,
-                                warm_start = warm_start, max_iter=max_iter,
-                                early_stopping=early_stopping, batch_size=batch_size)
-        if mode=='NN_reg':
-            model = MLPRegressor(solver=solver, hidden_layer_sizes=hidden_layer_sizes,
-                                activation=activation, learning_rate_init=learning_rate_init,
-                                warm_start=warm_start, max_iter=max_iter, early_stopping=early_stopping,
-                                batch_size=batch_size)
-        """
     else:
         raise ValueError("Invalid mode!")
     return model
@@ -173,7 +103,6 @@ def return_model(mode, **kwargs):
 
 
 def generate_features(latent, dependency):
-
     features = []
     n = latent.shape[0]
     exp = latent
@@ -186,7 +115,6 @@ def generate_features(latent, dependency):
 
 
 def label_generator(problem, X, param, difficulty=1, beta=None, important=None):
-        
     if important is None or important > X.shape[-1]:
         important = X.shape[-1]
     dim_latent = sum([important**i for i in range(1, difficulty+1)])

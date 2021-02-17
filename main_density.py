@@ -3,12 +3,11 @@ import pickle, argparse
 import numpy as np
 from sklearn.neighbors import KernelDensity
 from sklearn.model_selection import GridSearchCV
-
-from DistShap import DistShapDensity
-from fastdist import estimate_DSV_density
-from fastdist_utils import print_rank_correlation, point_removal_classification
-from data import load_classification_data
 from scipy.stats import spearmanr, pearsonr
+
+from dist_shap import DistShapDensity
+from fast_dist_shap import estimate_DSV_density, print_rank_correlation
+from data import load_classification_data
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--run_id", type=int, default=0)
