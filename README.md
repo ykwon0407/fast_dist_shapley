@@ -30,8 +30,8 @@ For more experiments, please see arguments in the `run_point_addition_exp.py` fi
 ```
 .
 ├── data.py
-├── dist_shap.py
-├── fast_dist_shap.py
+├── dist_shap.py (original algorithm for estimating DShapley)
+├── fast_dist_shap.py (proposed fast alogrithm for estimating DShapley)
 ├── prep_non_reg_data.py
 ├── run_point_addition_exp.py
 ├── run_time_comparison.py
@@ -40,7 +40,7 @@ For more experiments, please see arguments in the `run_point_addition_exp.py` fi
 ```
 
 - `dist_shap.py` and `shap_utils.py` provide the original Monte Carlo-based estimation methods proposed by Ghorbani et al. (2020). The two python files are from [this repository](https://github.com/amiratag/DistributionalShapley).
--  `fast_dist_shap.py` is the core file to efficiently compute distributional Shapley values.
+-  `fast_dist_shap.py` is the core file to efficiently compute DShapley.
 - `data.py` is to load datasets.
 
 ## Reference
