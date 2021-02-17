@@ -11,7 +11,7 @@ The following code will execute one run of the time comparison experiment in Fig
 ```
 python run_time_comparison.py --DShapley_flag
 ```
-This will conduct one experiment when (m,p)=(100,10).
+This will conduct one experiment when `(m,p)=(100,10)`.
 
 As for the point addition experiment, you may need to download datasets first. You can download non-regression datasets with the following code (And please see comments in `data.py`).
 ```
