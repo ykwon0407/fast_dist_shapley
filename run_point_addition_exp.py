@@ -7,7 +7,7 @@ from sklearn.neighbors import KernelDensity
 from sklearn.model_selection import GridSearchCV
 from scipy.stats import pearsonr
 
-from dist_shap import DistShap
+from dist_shap import DistShap, DistShapDensity
 from shap_utils import portion_performance
 from fast_dist_shap import *
 from data import load_reg_data_for_point_addition, load_non_reg_data_for_point_addition
@@ -144,7 +144,7 @@ def run_point_addition_clf(run_id, dataset, specific_class, which_bound, save_pa
     clf.fit(X_dist, y_dist)
     logistic_acc = clf.score(X_train, y_train)
 
-    if dataset not in ['cifar10', 'australian_scale']:
+    if dataset not in ['cifar10']:
         X_dist_tilde, z_dist_tilde, pi_dist, beta_dist = transform_IRLS(X_dist, y_dist, beta=None) # classification
     else:
         beta_dist = np.concatenate((clf.coef_.reshape(-1), clf.intercept_))
@@ -155,10 +155,8 @@ def run_point_addition_clf(run_id, dataset, specific_class, which_bound, save_pa
                  'X_star':X_train_tilde,
                  'y_star':z_train_tilde}
 
-    if dataset in ['cifar10', 'mnist', 'fashion']:             
+    if dataset in ['cifar10', 'mnist']:             
         utility_minimum_samples = 50 
-    elif dataset in ['diabetes_scale', 'australian_scale']:
-        utility_minimum_samples = 15
     elif dataset in ['gaussian', 'skin_nonskin']:
         utility_minimum_samples = 10
     else:
@@ -271,8 +269,9 @@ def run_point_addition_density(run_id, dataset, save_path):
     kde = grid.best_estimator_
     optimal_bandwidth = kde.bandwidth
     kde = grid.best_estimator_
-    X_from_estimator = kde.sample(len(X_test)) # sample from the density estimator
-    risk = np.mean(np.exp(kde.score_samples(X_from_estimator)))-2*np.mean(np.exp(kde.score_samples(X_test))) # Utility computation
+    num_test = len(X_test)//2
+    X_from_estimator = kde.sample(num_test) # sample from the density estimator
+    risk = np.mean(np.exp(kde.score_samples(X_from_estimator)))-2*np.mean(np.exp(kde.score_samples((X_test[-num_test:])))) # Utility computation
     print('-'*30)
     print(f"best bandwidth: {optimal_bandwidth:.3f}")
     print(f"best risk: {risk}")
@@ -288,9 +287,9 @@ def run_point_addition_density(run_id, dataset, save_path):
     print(f'Elapsed time for FAST DSHAPLEY : {fastdshap_time:.3f}') 
 
     print('-'*30)
-    print('D-Shapley & TMC-Shapley')
+    print('D-Shapley')
     print('-'*30)
-    # DShapley and TMC-Shapley
+    # DShapley 
     dshap = DistShapDensity(X=X_train, X_test=X_test, num_test=int(len(X_test)//2),
                              bandwidth=optimal_bandwidth,
                              X_tot=X_dist, 

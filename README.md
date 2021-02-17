@@ -2,6 +2,9 @@
 
 This repository provides the Python implementation of the paper "Efficient Computation and Analysis of Distributional Shapley Values" accepted at [AISTATS 2021](https://aistats.org/aistats2021). 
 
+
+
+
 ## Quick start
 
 The following code will execute one run of the time comparison experiment in Fig. 1. 
@@ -14,11 +17,15 @@ As for the point addition experiment, you may need to download datasets first. Y
 ```
 python prep_non_reg_data.py
 ```
-After that you can run all experiments introduced in the paper with the command `run_point_addition_exp.py`. Please see arguments in the `run_point_addition_exp.py` file.
+After that you can run all experiments introduced in the paper. One example is as follows.
+```
+run_point_addition_exp.py
+``` 
+For more experiments, please see arguments in the `run_point_addition_exp.py` file.
 
 **Remark** You may need to run experiments multiple time to reproduce results in the paper (please change the `run_id` argument). 
 
-## A directory tree (TODO)
+## A directory tree 
 
 ```
 .

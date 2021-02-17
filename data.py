@@ -50,9 +50,7 @@ def load_reg_data_for_point_addition(m=200,
         print('-'*50)
         print('airfoil')
         print('-'*50)
-        test_size = 500
-        heldout_size = 500
-        
+        test_size, heldout_size = 500, 500
         raw_data = pd.read_csv(reg_path+"/airfoil_self_noise.dat", sep='\t', names=['X1','X2,','X3','X4','X5','Y'])
         data = raw_data.values[:,:-1]
         target = raw_data.values[:,-1]
