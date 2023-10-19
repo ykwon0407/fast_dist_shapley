@@ -20,7 +20,8 @@ for dataset_name in list_datasets:
             Please see comments in data.py')
 
     # The following code will download datasets
-    print("Downloading the datasets..")
+
+    # NOTE: Make sure your system has wget installed.
     os.system(f'wget -t inf '+DOWNLOAD_URL+dataset_name)
     os.system(f'mv ./{dataset_name} {DATA_PATH}/clf_datasets/{dataset_name}')
     fh = open(DATA_PATH+f'/clf_datasets/{dataset_name}','r')
