@@ -17,9 +17,9 @@ def load_reg_data_for_point_addition(m=200,
 
     You may need to download datasets first. Make sure to store in 'reg_path'.
     The datasets are avaiable at the following links.
-    abalone: https://archive.ics.uci.edu/ml/machine-learning-databases/abalone/
-    airfoil: https://archive.ics.uci.edu/ml/machine-learning-databases/00291/
-    whitewine: https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/
+    abalone: https://archive.ics.uci.edu/ml/machine-learning-databases/abalone/ -> NEW -> https://archive.ics.uci.edu/dataset/1/abalone
+    airfoil: https://archive.ics.uci.edu/ml/machine-learning-databases/00291/  -> NEW -> https://archive.ics.uci.edu/dataset/186/00291
+    whitewine: https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/ -> NEW -> https://archive.ics.uci.edu/dataset/186/wine+quality
     '''
     
     if dataset == 'gaussian':
